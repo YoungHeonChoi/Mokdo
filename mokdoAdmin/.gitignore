@@ -1,0 +1,50 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+logs/
+*.log
+
+# MyBatis
+mybatis-config.xml
+
+# MySQL Dumps
+*.sql
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment Files
+.env
+
+# Temporary Files
+*.tmp
+*.swp
+
+# Lombok
+*.lombok
+
+# H2 Database
+*.h2.db
+*.mv.db
+
+# Node (if frontend exists)
+node_modules/
+
+# Others
+bin/
+tmp/
