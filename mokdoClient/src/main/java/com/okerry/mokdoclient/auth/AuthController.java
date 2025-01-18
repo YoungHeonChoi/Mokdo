@@ -23,3 +23,5 @@ public class AuthController {
         return "auth/forgot";
     }
 }
+
+

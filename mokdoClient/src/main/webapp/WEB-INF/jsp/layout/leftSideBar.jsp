@@ -3,9 +3,9 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-laugh-wink"></i>
-        </div>
+<%--        <div class="sidebar-brand-icon rotate-n-15">--%>
+<%--            <i class="fas fa-laugh-wink"></i>--%>
+<%--        </div>--%>
         <div class="sidebar-brand-text mx-3">Mokdo</div>
     </a>
 
@@ -15,8 +15,8 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
         <a class="nav-link" href="index.html">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>대시보드</span></a>
+            <span>대시보드</span>
+        </a>
     </li>
 
     <!-- Divider -->
@@ -30,12 +30,10 @@
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item active">
         <a class="nav-link" href="index.html">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>상태</span></a>
     </li>
     <li class="nav-item active">
-        <a class="nav-link" href="index.html">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
+        <a class="nav-link" href="/player/inventory">
             <span>가방</span></a>
     </li>
 

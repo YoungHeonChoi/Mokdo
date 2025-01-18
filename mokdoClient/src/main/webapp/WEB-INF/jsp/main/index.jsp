@@ -21,7 +21,7 @@
 
     <!-- Custom styles for this template-->
     <link href="/css/bootstrap/sb-admin-2.min.css" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/b771794b03.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="page-top">
@@ -366,7 +366,7 @@
         </div>
         <!-- End of Main Content -->
 
-        <jsp:include page="../layout/footer.jsp"></jsp:include>
+
 
     </div>
     <!-- End of Content Wrapper -->
