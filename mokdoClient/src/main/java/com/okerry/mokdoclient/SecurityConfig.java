@@ -13,7 +13,7 @@ public class SecurityConfig {
         http
                 .csrf().disable()  // CSRF 비활성화 (개발 환경)
                 .authorizeHttpRequests((auth) -> auth
-                        .antMatchers("/", "/home", "/api/**", "/static/**").permitAll()  // 접근 허용 경로
+                        .antMatchers("/", "/regist", "/forgot", "/main/**","/css/**", "/scss/**", "/js/**", "/images/**", "/vendor/**").permitAll()  // ✅ 수정
                         .anyRequest().authenticated()  // 나머지는 인증 필요
                 )
                 .formLogin().disable();  // 기본 로그인 페이지 비활성화
